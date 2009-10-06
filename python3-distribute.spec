@@ -2,15 +2,16 @@
 #
 %define		pname	distribute
 Summary:	Easily download, build, install, upgrade, and uninstall Python packages
-Name:		python3-distibute
+Name:		python3-distribute
 Version:	0.6.3
 Release:	0.1
 License:	PSF or ZPL
 Group:		Development/Languages/Python
 Source0:	http://pypi.python.org/packages/source/d/distribute/distribute-%{version}.tar.gz
 # Source0-md5:	3940fd02a763f001014296cfec5e69f2
-URL:		http://www.argo.es/~jcea/programacion/pybsddb.htm
+URL:		http://pypi.python.org/pypi/distribute
 BuildRequires:  python3
+BuildRequires:	python3-2to3
 BuildRequires:	python3-modules
 BuildRequires:	python3-devel
 BuildRequires:	rpm-build-macros >= 1.523
