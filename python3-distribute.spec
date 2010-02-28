@@ -11,7 +11,7 @@ Source0:	http://pypi.python.org/packages/source/d/distribute/distribute-%{versio
 # Source0-md5:	99fb4b3e4ef0861bba11aa1905e89fed
 URL:		http://pypi.python.org/pypi/distribute
 BuildRequires:  python3
-BuildRequires:	python3-2to3
+BuildRequires:	python3-2to3 >= 1:3.1.1-3
 BuildRequires:	python3-modules
 BuildRequires:	python3-devel
 BuildRequires:	rpm-build-macros >= 1.523
